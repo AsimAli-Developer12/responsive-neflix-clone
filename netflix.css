@@ -1,0 +1,1542 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+/* ======Top====== */
+.top {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(bgimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 4px solid;
+    border-image: linear-gradient(to right, crimson, red, crimson) 1;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 9vw;
+}
+
+.logo img {
+    height: auto;
+    width: 15vw;
+}
+
+.btn button {
+    height: 5vh;
+    width: 6vw;
+    background-color: red;
+    border-radius: 8px;
+    color: white;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn button:hover {
+    background-color: rgba(231, 11, 11, 0.841);
+}
+
+.para {
+    padding-left: 25%;
+    margin-top: 6%;
+}
+
+.par {
+    padding-left: 5%;
+}
+
+.para p,
+.par {
+    font-size: 7rem;
+    color: white;
+    letter-spacing: 1px;
+    font-family: "BBH Bogle", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.para1 {
+    padding-left: 35%;
+    margin-top: 2%;
+    height: 15vh;
+}
+
+.para1 p {
+    color: white;
+    font-size: 3rem;
+    font-family: "BBH Bogle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.par1 {
+    color: white;
+    position: relative;
+    right: 6%;
+    top: 30%;
+    font-size: 2rem;
+    font-family: "BBH Bogle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7%;
+    color: wite;
+}
+
+input {
+    height: 4vw;
+    width: 35vw;
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.425);
+    outline: none;
+    border: 2px solid gray;
+    margin-right: 2%;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.7rem;
+    padding-top: 1%;
+    padding-left: 1vw;
+    border-radius: 8px;
+}
+
+input:focus {
+    border: 4px solid white;
+}
+
+label {
+    position: absolute;
+    color: white;
+    font-family: "BBH Bogle", sans-serif;
+    font-size: 1.7rem;
+    left: 25%;
+    top: 38%;
+    transition: .2s;
+}
+
+input:focus~label,
+input:valid~label {
+    top: 0.7vw;
+    font-size: 1.4rem;
+}
+
+.form button {
+
+    font-size: 2.8rem;
+    font-family: "BBH Bogle", sans-serif;
+    color: white;
+    background: rgba(230, 11, 11, 0.948);
+    outline: none;
+    border: none;
+    font-weight: 600;
+    height: 4vw;
+    width: 13vw;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.form i {
+    font-size: 2.5rem;
+}
+
+.form button:hover {
+    background-color: rgb(214, 25, 25);
+}
+
+
+/* =======2nd======== */
+.sectiontop {
+    height: 55vh;
+}
+
+.trends h1 {
+    color: white;
+    font-size: 2.3vw;
+    font-family: "BBH Bogle", sans-serif;
+    padding-left: 11%;
+    padding-top: 2%;
+}
+
+.container {
+    height: 73%;
+    width: 70%;
+    margin-left: 12%;
+}
+
+.card1 {
+    display: flex;
+    gap: 3vw;
+    margin-left: 6%;
+    margin-top: 4%;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+    scrollbar-width: none;
+}
+
+.card img {
+    margin-top: 9%;
+    height: 17vw;
+    width: 13vw;
+    border-top-left-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.number {
+    color: black;
+    font-size: 6vw;
+    position: relative;
+    bottom: 33%;
+    right: 3%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    -webkit-text-stroke: 3px white;
+    z-index: 10;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+}
+
+/* ==========3rd========== */
+.section-second {
+    height: 30vw;
+}
+
+.list h2 {
+    font-size: 2vw;
+    color: white;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    padding: 5vw 10vw;
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1 {
+    height: 17vw;
+    width: 18vw;
+    background: linear-gradient(to bottom, rgb(41, 79, 215), rgb(120, 69, 18));
+    border-radius: 1vw;
+}
+
+.box1 h3 {
+    font-size: 1.4vw;
+    font-family: "BBH Bogle", sans-serif;
+    padding: 2vw 1vw;
+    color: white;
+}
+
+.box1 p {
+    font-size: 1vw;
+    color: white;
+    padding: 0 1vw;
+    font-family: "BBH Bogle", sans-serif;
+}
+
+.box1 i {
+    font-size: 2.9vw;
+    background: linear-gradient(to right, rgb(194, 20, 55), rgba(210, 10, 10, 0.944), crimson);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: 3.4vw;
+    left: 13vw;
+}
+
+/* =========4th======== */
+.section-trd {
+    height: 32vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    padding: 3vw 12vw;
+}
+
+.qna h2 {
+    font-size: 2vw;
+    color: white;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+
+.box2 {
+    height: 6vw;
+    width: 75vw;
+    background-color: #414141;
+    padding: 2vw 3vw;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.box2 i {
+    font-size: 1.7vw;
+    color: white;
+}
+
+.box2 span {
+    font-size: 1.6vw;
+    font-weight: 400;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.box2:hover {
+    background-color: rgb(79, 78, 78);
+}
+
+/* =======5th======= */
+.section-frth {
+    height: 14vw;
+}
+
+/* =======6th====== */
+
+.footer {
+    height: 38vw;
+}
+
+h5 {
+    font-size: 1.1vw;
+    text-decoration: underline;
+    font-family: "Roboto", sans-serif;
+    padding: 2vw 12vw;
+    color: #8F8F8F;
+}
+
+
+.footer1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0vw 12vw;
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+}
+
+
+
+.footer-items a {
+    font-size: 0.9vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 550;
+    color: #8F8F8F;
+}
+
+.footer-btn {
+    height: 2.3vw;
+    width: 8vw;
+    font-size: 1vw;
+    font-family: "Roboto", sans-serif;
+    border: 2px solid rgb(147, 147, 147);
+    border-radius: 0.3vw;
+    padding: 0.5vw 0.9vw;
+    background-color: #4d4c4c63;
+    color: white;
+    margin: 3vw 12vw;
+    cursor: pointer;
+}
+
+.last {
+    margin: 2vw 12vw;
+}
+
+.last p {
+    font-size: 0.9vw;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+.last1 {
+    padding-top: 3vw;
+    color: white;
+    font-size: 0.8vw;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.last span {
+    color: rgb(62, 144, 216);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
+
+/* =======Media Quries======== */
+
+/* ========Small mobile screen======= */
+
+@media (min-width: 200px) and (max-width: 320px) {
+    /* Top */
+
+    .top {
+        height: 80vh;
+    }
+
+    .header {
+        padding: 5vw 9vw;
+    }
+
+    .logo img {
+        height: auto;
+        width: 5rem;
+    }
+
+    .btn button {
+        height: 7vw;
+        width: 18vw;
+        font-size: 3vw;
+    }
+
+    .para {
+        margin-top: 17vw;
+        margin-right: 16%;
+    }
+
+
+    .para p,
+    .par {
+        font-size: 1rem;
+    }
+
+    .para1 {
+        padding-top: 3%;
+    }
+
+    .para1 p {
+        font-size: 2.7vw;
+    }
+
+    .par1 {
+        font-size: 0.5rem;
+        right: 20%;
+    }
+
+    .form {
+        flex-direction: column;
+        align-items: center;
+        margin: 4vw 3vw;
+        padding: 2vw;
+    }
+
+    label {
+        font-size: 2.4vw;
+        top: 22%;
+        left: 22%;
+    }
+
+    input:focus~label,
+    input:valid~label {
+        top: 3.8vw;
+        font-size: 1.4vw;
+    }
+
+    input {
+        height: 9vw;
+        width: 60vw;
+        font-size: 2.2vw;
+    }
+
+    input:focus {
+        border: 2.6px solid white;
+    }
+
+    .form button {
+        height: 8vw;
+        width: 23vw;
+        margin-top: 5vw;
+        font-size: 2.6vw;
+    }
+
+    .form i {
+        font-size: 2.4vw;
+    }
+
+    /* 2nd */
+    .sectiontop {
+        height: 24vh;
+    }
+
+    .trends h1 {
+        font-size: 5.1vw;
+        padding-top: 3vw;
+    }
+
+    .container {
+        height: 76%;
+        width: 73%;
+    }
+
+    .card img {
+        height: 20vw;
+        width: 16vw;
+    }
+
+    .number {
+        -webkit-text-stroke: 0.6px white;
+        font-size: 6vw;
+    }
+
+    /* 3rd */
+
+    .section-second {
+        height: 37vw;
+    }
+
+    .list h2 {
+        font-size: 4vw;
+    }
+
+    .box1 {
+        height: 19vw;
+        width: 20vw;
+    }
+
+    .box1 p {
+        font-size: 1.2vw;
+    }
+
+    .box1 h3 {
+        font-size: 2vw;
+    }
+
+    .box1 i {
+        top: 1vw;
+        font-size: 3vw;
+    }
+
+    /* 4th */
+
+    .section-trd {
+        height: 34vw;
+    }
+
+    .qna h2 {
+        font-size: 4vw;
+    }
+
+    .box2 span {
+        font-size: 1.9vw;
+    }
+
+    .box i {
+        font-size: 1.8vw;
+    }
+
+    /* 6th */
+
+    .footer {
+        height: 83vw;
+        margin-top: 53%;
+    }
+
+    h5 {
+        font-size: 2vw;
+    }
+
+    .footer-items a {
+        font-size: 1.5vw;
+    }
+
+    .footer-btn {
+        height: 2.9vw;
+        width: 12vw;
+        font-size: 1.2vw;
+        padding: 0.4vw 1vw;
+    }
+
+    .last p {
+        font-size: 1.6vw;
+    }
+
+    .footer1 {
+        display: block;
+    }
+}
+
+
+
+/* ====Medium mobile screen===== */
+
+@media (min-width: 321px) and (max-width: 376px) {
+    .top {
+        height: 80vh;
+    }
+
+    .header {
+        padding: 4vw 9vw;
+    }
+
+    .logo img{
+        height: auto;
+        width: 24vw;
+    }
+
+    .btn button{
+        height: 6vw;
+        width: 13vw;
+        font-size: 1.9vw;
+    }
+
+    .para{
+        margin-top: 7%;
+        margin-left: -7%;
+        width: 85%;
+    }
+
+    .para p,
+    .par {
+        font-size: 1.3rem;
+        padding-right: 1%;
+    }
+
+    .para1{
+        margin-top: 6%;
+        padding-left: 30%;
+        width: 70%;
+    }
+
+    .para1 p,
+    .par1 {
+        font-size: 2.1vw;
+        margin-right: 9%;
+    }
+
+    .form{
+        flex-direction: column;
+    }
+
+    input{
+        height: 8vw;
+        width: 66vw;
+        font-size: 2.3vw;
+    }
+
+    input:focus{
+        border: 1.2px solid white;
+    }
+
+    label{
+        font-size: 2vw;
+        top: 18%;
+        left: 18%;
+    }
+
+    input:focus~label,input:valid~label{
+        font-size: 1.1vw;
+        top: 1.6vw;
+    }
+
+    .form i{
+        font-size: 1.8vw;
+    }
+
+    .form button {
+        margin-top: 5%;
+        height: 6vw;
+        width: 18vw;
+        font-size: 2vw;
+    }
+
+    /* 2nd */
+    .sectiontop{
+        height: 28vh;
+    }
+
+    .trends h1{
+        font-size: 4.5vw;
+        padding-top: 3%;
+    }
+
+    .card img{
+        height: 26vw;
+        width: 20vw;
+    }
+
+    .number{
+        -webkit-text-stroke: 0.8px white;
+        font-size: 7vw;
+    }
+
+    /* 3rd */
+    .section-second{
+        height: 40vw;
+    }
+    
+    .box1{
+        height: 22vw;
+        width: 19vw;
+    }
+
+    .box1 h3{
+        font-size: 1.6vw;
+    }
+
+    .box1 p{
+        font-size: 1.3vw;
+    }
+
+    .list h2{
+        font-size: 4.4vw;
+    }
+
+    /* 4th */
+    .section-trd{
+        height: 38vw;
+        padding-top: 5%;
+    }
+
+    .qna h2{
+        font-size: 4.4vw;
+    }
+
+    .box2{
+        margin-top: 1%;
+        height: 7vw;
+    }
+
+    .box2 span{
+        font-size: 1.9vw;
+    }
+
+    .box2 i{
+        font-size: 1.9vw;
+    }
+
+    /* 6th */
+    .footer{
+        height: 53vh;
+        margin-top: 44%;
+    }
+
+    h5{
+        font-size: 2.7vw;
+    }
+
+    .footer1{
+        display: block;
+    }
+
+    .footer-items a{
+        font-size: 1.7vw;
+    }
+
+    .footer-btn{
+        height: 3vw;
+        width: 9vw;
+    }
+
+    .last p{
+        font-size: 1.3vw;
+    }
+
+}
+
+
+
+/* ======Large mobile Screen======= */
+
+
+@media (min-width: 376px) and (max-width: 426px) {
+    .top{
+        height: 86vh;
+    }
+
+    .header{
+        padding: 5vw 10vw;
+        padding-top: 8%;
+    }
+
+    .logo img{
+        height: auto;
+        width: 28vw;
+    }
+
+    .para{
+        marign-right: -18%;
+    }
+
+    .para p, .par{
+        font-size: 4.9vw;
+    }
+
+    .para1 p, .par1{
+        font-size: 2vw;
+    }
+
+    .par1{
+        padding-right: 10%;
+    }
+
+    .btn button{
+        height: 6vw;
+        width: 13vw;
+        font-size: 2vw;
+    }
+
+    .form{
+        flex-direction: column;
+    }
+
+    label{
+        font-size: 2.6vw;
+        top: 15%;
+    }
+
+    input{
+        height: 8vw;
+        width: 70vw;
+        font-size: 2.3vw;
+        margin-left: 18%;
+        padding-left: 3vw;
+    }
+
+    input:focus{
+        border: 1.1px solid white;
+    }
+
+    input:focus~label,input:valid~label{
+        font-size: 1.4vw;
+        top: 1vw;
+    }
+
+    .form button{
+        height: 6.3vw;
+        width: 20vw;
+        margin-top: 4%;
+        font-size: 2vw;
+    }
+
+    .form i{
+        font-size: 1.8vw;
+    }
+
+    /* 2nd */
+    .sectiontop{
+        height: 51vw;
+    }
+
+    .trends h1{
+        font-size: 5.3vw;
+        padding-top: 3%;
+    }
+
+    .card img{
+        height: 26vw;
+        width: 20vw;
+    }
+
+    .number{
+        -webkit-text-stroke: 1.4px white;
+    }
+
+    /* 3rd */
+    .section-second{
+        height: 38vw;
+    }
+    .list h2{
+        font-size: 5.3vw;
+    }
+
+    .box1{
+        height: 18vw;
+    }
+
+    .box1 h3{
+        font-size: 1.5vw;
+    }
+
+    .box1p{
+        font-size: 1.3vw;
+    }
+
+    /* 4th */
+    .section-trd{
+        height: 43vw;
+    }
+
+    .qna h2{
+        font-size: 4.6vw;
+    }
+
+    .box2{
+        height: 8vw;
+        margin-top: 2%;
+    }
+
+    .box2 span{
+        font-size: 2.3vw;
+    }
+
+    .box2 i{
+        font-size: 2vw;
+    }
+
+    /* 6th */
+    .footer{
+        height: 30vh;
+        margin-top: 40%;
+    }
+
+    h5{
+        font-size: 2.9vw;
+    }
+
+    .footer-items a{
+        font-size: 1.8vw;
+    }
+
+    .footer-btn i{
+        font-size: 1;
+    }
+
+    .footer-btn{
+        height: 3.2vw;
+        width: 12vw;
+        font-size: 1.3vw;
+        padding-top: 0.7%;
+    }
+
+    .last p{
+        font-size: 1.4vw;
+    }
+
+    .last1 p{
+        font-size: 1.4vw;
+    }
+}
+
+
+
+/* =======Tablet mobile screen====== */
+
+@media (min-width: 426px) and (max-width: 768px) {
+   
+    .top{
+        height: 100vh;
+    }
+
+    .header{
+        padding: 5vw 10vw;
+        padding-top: 4%;
+    }
+
+    .logo img{
+        height: auto;
+        width: 25vw;
+    }
+
+    .para{
+        marign-right: -18%;
+    }
+
+    .para p, .par{
+        font-size: 4.9vw;
+    }
+
+    .para1 p, .par1{
+        font-size: 1.5vw;
+    }
+
+    .para1 p{
+        padding-left: 10%;
+    }
+
+    .par1{
+        padding-right: 18%;
+    }
+
+    .btn button{
+        height: 5vw;
+        width: 13vw;
+        font-size: 2vw;
+    }
+
+    .form{
+        flex-direction: column;
+        margin-top: 2%;
+    }
+
+    label{
+        font-size: 2.3vw;
+        top: 15%;
+    }
+
+    input{
+        height: 8vw;
+        width: 70vw;
+        font-size: 2vw;
+        margin-left: 18%;
+        padding-left: 3vw;
+    }
+
+    input:focus{
+        border: 1.1px solid white;
+    }
+
+    input:focus~label,input:valid~label{
+        font-size: 1.4vw;
+        top: 1vw;
+    }
+
+    .form button{
+        height: 6.3vw;
+        width: 20vw;
+        margin-top: 4%;
+        margin-left: 14%;
+        font-size: 2vw;
+    }
+
+    .form i{
+        font-size: 1.8vw;
+    }
+
+    /* 2nd */
+    .sectiontop{
+        height: 51vw;
+    }
+
+    .trends h1{
+        font-size: 4.2vw;
+        padding-top: 5%;
+    }
+
+    .card img{
+        height: 28vw;
+        width: 20vw;
+    }
+
+    .number{
+        -webkit-text-stroke: 1.4px white;
+    }
+
+    /* 3rd */
+    .section-second{
+        height: 38vw;
+    }
+    .list h2{
+        font-size: 4.2vw;
+    }
+
+    .box1{
+        height: 19vw;
+    }
+
+    .box1 h3{
+        font-size: 1.7vw;
+    }
+
+    .box1p{
+        font-size: 1.5vw;
+    }
+
+    /* 4th */
+    .section-trd{
+        height: 43vw;
+    }
+
+    .qna h2{
+        font-size: 4.2vw;
+    }
+
+    .box2{
+        height: 8vw;
+        margin-top: 2%;
+    }
+
+    .box2 span{
+        font-size: 2.3vw;
+    }
+
+    .box2 i{
+        font-size: 2vw;
+    }
+
+    /* 6th */
+    .footer{
+        height: 55vh;
+        margin-top: 40%;
+    }
+
+    h5{
+        font-size: 2.9vw;
+    }
+
+    .footer-items a{
+        font-size: 1.8vw;
+    }
+
+    .footer-btn i{
+        font-size: 1;
+    }
+
+    .footer-btn{
+        height: 3.2vw;
+        width: 12vw;
+        font-size: 1.3vw;
+        padding-top: 0.7%;
+    }
+
+    .last p{
+        font-size: 1.4vw;
+    }
+
+    .last1 p{
+        font-size: 1.4vw;
+    }
+
+}
+
+
+
+/* =======Laptop screen======== */
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+   
+    .top{
+        height: 100vh;
+    }
+
+    .header{
+        padding: 5vw 10vw;
+        padding-top: 4%;
+    }
+
+    .logo img{
+        height: auto;
+        width: 25vw;
+    }
+
+    .para{
+        marign-right: -18%;
+    }
+
+    .para p, .par{
+        font-size: 4.9vw;
+    }
+
+    .para1 p{
+        padding-left: 10%;
+    }
+
+    .para1 p, .par1{
+        font-size: 1.5vw;
+    }
+
+    .par1{
+        padding-right: 18%;
+        margin-top: 4%;
+    }
+
+    .btn button{
+        height: 5vw;
+        width: 13vw;
+        font-size: 2vw;
+    }
+
+    .form{
+        flex-direction: column;
+        margin-top: 2%;
+    }
+
+    label{
+        font-size: 2.3vw;
+        top: 15%;
+    }
+
+    input{
+        height: 8vw;
+        width: 70vw;
+        font-size: 2vw;
+        margin-left: 18%;
+        padding-left: 3vw;
+    }
+
+    input:focus{
+        border: 1.1px solid white;
+    }
+
+    input:focus~label,input:valid~label{
+        font-size: 1.4vw;
+        top: 1vw;
+    }
+
+    .form button{
+        height: 6.3vw;
+        width: 20vw;
+        margin-top: 4%;
+        margin-left: 14%;
+        font-size: 2vw;
+    }
+
+    .form i{
+        font-size: 1.8vw;
+    }
+
+    /* 2nd */
+    .sectiontop{
+        height: 51vw;
+    }
+
+    .trends h1{
+        font-size: 4.2vw;
+        padding-top: 5%;
+    }
+
+    .card img{
+        height: 28vw;
+        width: 20vw;
+    }
+
+    .number{
+        -webkit-text-stroke: 1.4px white;
+    }
+
+    /* 3rd */
+    .section-second{
+        height: 38vw;
+    }
+    .list h2{
+        font-size: 4.2vw;
+    }
+
+    .box1{
+        height: 19vw;
+    }
+
+    .box1 h3{
+        font-size: 1.7vw;
+    }
+
+    .box1p{
+        font-size: 1.5vw;
+    }
+
+    /* 4th */
+    .section-trd{
+        height: 43vw;
+    }
+
+    .qna h2{
+        font-size: 4.2vw;
+    }
+
+    .box2{
+        height: 8vw;
+        margin-top: 2%;
+    }
+
+    .box2 span{
+        font-size: 2.3vw;
+    }
+
+    .box2 i{
+        font-size: 2vw;
+    }
+
+    /* 6th */
+    .footer{
+        height: 55vh;
+        margin-top: 40%;
+    }
+
+    h5{
+        font-size: 2.9vw;
+    }
+
+    .footer-items a{
+        font-size: 1.8vw;
+    }
+
+    .footer-btn i{
+        font-size: 1;
+    }
+
+    .footer-btn{
+        height: 3.2vw;
+        width: 12vw;
+        font-size: 1.3vw;
+        padding-top: 0.7%;
+    }
+
+    .last p{
+        font-size: 1.4vw;
+    }
+
+    .last1 p{
+        font-size: 1.4vw;
+    }
+
+}
+
+
+
+
+/* ========Laptop large screen========= */
+
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+   
+     .top{
+        height: 100vh;
+    }
+
+    .header{
+        padding: 5vw 10vw;
+        padding-top: 4%;
+    }
+
+    .logo img{
+        height: auto;
+        width: 25vw;
+    }
+
+    .para{
+        marign-right: -18%;
+    }
+
+    .para p, .par{
+        font-size: 4.9vw;
+    }
+
+    .para1 p{
+        padding-left: 10%;
+    }
+
+    .para1 p, .par1{
+        font-size: 1.6vw;
+    }
+
+    .par1{
+        padding-right: 18%;
+        margin-top: 4%;
+    }
+
+    .btn button{
+        height: 5vw;
+        width: 13vw;
+        font-size: 2vw;
+    }
+
+    .form{
+        flex-direction: column;
+        margin-top: 2%;
+    }
+
+    label{
+        font-size: 2.3vw;
+        top: 15%;
+    }
+
+    input{
+        height: 8vw;
+        width: 70vw;
+        font-size: 2vw;
+        margin-left: 18%;
+        padding-left: 3vw;
+    }
+
+    input:focus{
+        border: 1.1px solid white;
+    }
+
+    input:focus~label,input:valid~label{
+        font-size: 1.4vw;
+        top: 1vw;
+    }
+
+    .form button{
+        height: 6.3vw;
+        width: 20vw;
+        margin-top: 4%;
+        margin-left: 14%;
+        font-size: 2vw;
+    }
+
+    .form i{
+        font-size: 1.8vw;
+    }
+
+    /* 2nd */
+    .sectiontop{
+        height: 51vw;
+    }
+
+    .trends h1{
+        font-size: 4.2vw;
+        padding-top: 5%;
+    }
+
+    .card img{
+        height: 28vw;
+        width: 20vw;
+    }
+
+    .number{
+        -webkit-text-stroke: 1.4px white;
+    }
+
+    /* 3rd */
+    .section-second{
+        height: 38vw;
+    }
+    .list h2{
+        font-size: 4.2vw;
+    }
+
+    .box1{
+        height: 19vw;
+    }
+
+    .box1 h3{
+        font-size: 1.7vw;
+    }
+
+    .box1p{
+        font-size: 1.5vw;
+    }
+
+    /* 4th */
+    .section-trd{
+        height: 43vw;
+    }
+
+    .qna h2{
+        font-size: 4.2vw;
+    }
+
+    .box2{
+        height: 8vw;
+        margin-top: 2%;
+    }
+
+    .box2 span{
+        font-size: 2.3vw;
+    }
+
+    .box2 i{
+        font-size: 2vw;
+    }
+
+    /* 6th */
+    .footer{
+        height: 55vh;
+        margin-top: 40%;
+    }
+
+    h5{
+        font-size: 2.9vw;
+    }
+
+    .footer-items a{
+        font-size: 1.8vw;
+    }
+
+    .footer-btn i{
+        font-size: 1;
+    }
+
+    .footer-btn{
+        height: 3.2vw;
+        width: 12vw;
+        font-size: 1.3vw;
+        padding-top: 0.7%;
+    }
+
+    .last p{
+        font-size: 1.4vw;
+    }
+
+    .last1 p{
+        font-size: 1.4vw;
+    }
+
+}
+
+
+
+/* ==========4k screen=========== */
+
+@media (min-width: 1441px) and (max-width: 2560px) {
+    
+     .top{
+        height: 100vh;
+    }
+
+    .header{
+        padding: 3vw 10vw;
+        padding-top: 2%;
+    }
+
+    .logo img{
+        height: auto;
+        width: 15vw;
+    }
+
+    .btn button{
+        height: 3vw;
+        width: 8vw;
+        font-size: 1.2vw;
+    }
+
+    .para{
+        margin-top: 3%;
+        padding-left: 33%;
+    }
+
+    .para p,.par{
+        font-size: 3vw;
+    }
+
+    .para1 p{
+        font-size: 1.4vw;
+        padding-left: 6%;
+    }
+
+    .form{
+        margin-right: -5%;
+    }
+
+    label{
+        left: 28%;
+        top: 35%;
+    }
+
+    .form button{
+        font-size: 1.6vw;
+    }
+}
